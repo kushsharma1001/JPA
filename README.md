@@ -12,3 +12,5 @@ Example to show JPA demo
    Finally, In application.properties, add spring.jpa.hibernate.ddl-auto=none
    
    With these 3 things, spring will create and add data and we dont have to do anything else.
+
+Note: When data is added to tables and some String in db should map to Enum type in @Entity class. then, we need a converter at compile time. So create a class implementing AttributeConverter and override its uniplemented methods to solve this problem.
