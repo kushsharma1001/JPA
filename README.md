@@ -13,4 +13,4 @@ Example to show JPA demo
    
    With these 3 things, spring will create and add data and we dont have to do anything else.
 
-Note: When data is added to tables and some String in db should map to Enum type in @Entity class. then, we need a converter at compile time. So create a class implementing AttributeConverter and override its uniplemented methods to solve this problem.
+Note: When data is added to tables and some String in db should map to Enum type in @Entity class. then, we need a converter at compile time. So create a class implementing AttributeConverter and override its uniplemented methods to solve this problem. The class should be annotated with @Converter(autoApply=true)
