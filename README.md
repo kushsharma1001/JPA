@@ -7,3 +7,8 @@ Example to show JPA demo
    we have to use fields "id" and "dob" as a ID. So, create a Corresponding class with @Embeddable annotation having id and dob as 
    fields and use this classname as one of the field in your entity class and use @Embeddable in your entity class at this 
    corresponding classname variable.)
+5) IN reources folder, add schema.sql with queries to create a table.
+                       add data.sql to add data to tables.
+   Finally, In application.properties, add spring.jpa.hibernate.ddl-auto=none
+   
+   With these 3 things, spring will create and add data and we dont have to do anything else.
