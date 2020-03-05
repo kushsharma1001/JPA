@@ -37,3 +37,8 @@ public class UserController {
 	}
 	
 }
+/*
+POST : first time resource is being created,
+PUT : To update all fields of an existing resource,
+PATCH : To update only few fields of an existing resource.
+*/
